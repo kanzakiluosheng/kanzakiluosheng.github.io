@@ -1,268 +1,539 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>Hexo</title>
+    <meta name="description" content="A minimal hexo theme."/>
+    <meta name="keywords" content="hexo,theme,otakism,otaku"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="google-site-verification" content=""/>
+    <meta name="baidu-site-verification" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://kanzakiluosheng.github.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="神崎罗生">
+<meta name="twitter:card" content="summary">
+    
 
+    <!-- Favicon -->
+    
 
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,700" rel="stylesheet">
 
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Hexo">
-  <meta property="og:url" content="https://kanzakiluosheng.github.com/index.html">
-  <meta property="og:site_name" content="Hexo">
-  <meta property="og:locale" content="en_US">
-  <meta property="article:author" content="John Doe">
-  <meta name="twitter:card" content="summary">
+    
+<link rel="stylesheet" href="/style.css">
 
-  <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <script>
+      function setLoadingBarProgress(num) {
+        document.getElementById('loading-bar').style.width = num + "%";
+      }
+    </script>
 
-
-  <link rel="icon" href="/favicon.png">
-
-
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-
-
-  <link rel="stylesheet" href="/css/style.css">
-
-  <meta name="generator" content="Hexo 4.2.1">
-</head>
+    
+<meta name="generator" content="Hexo 4.2.1"></head>
 
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-        <div id="banner"></div>
-        <div id="header-outer" class="outer">
-          <div id="header-title" class="inner">
-            <h1 id="logo-wrap">
-              <a href="/" id="logo">Hexo</a>
-            </h1>
 
-          </div>
-          <div id="header-inner" class="inner">
-            <nav id="main-nav">
-              <a id="main-nav-toggle" class="nav-icon"></a>
+<div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
 
-              <a class="main-nav-link" href="/">Home</a>
+<script>setLoadingBarProgress(20)</script>
 
-              <a class="main-nav-link" href="/archives">Archives</a>
+<div id="site-wrapper">
 
-            </nav>
-            <nav id="sub-nav">
-
-              <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-
-              <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-            </nav>
-            <div id="search-form-wrap">
-              <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input
-                  type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit"
-                  class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch"
-                  value="https://kanzakiluosheng.github.com"></form>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="outer">
-        <section id="main">
-
-          <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-meta">
-              <a href="/2020/06/12/hello-world/" class="article-date">
-                <time datetime="2020-06-12T07:40:10.079Z" itemprop="datePublished">2020-06-12</time>
-              </a>
-
-            </div>
-            <div class="article-inner">
-
-
-              <header class="article-header">
-
-
-                <h1 itemprop="name">
-                  <a class="article-title" href="/2020/06/12/hello-world/">Hello World</a>
-                </h1>
-
-
-              </header>
-
-              <div class="article-entry" itemprop="articleBody">
-
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very
-                  first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for
-                  more info. If you get any problems when using Hexo, you can find the answer in <a
-                    href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a>
-                  or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank"
-                    rel="noopener">GitHub</a>.</p>
-                <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2>
-                <h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink"
-                    title="Create a new post"></a>Create a new post</h3>
-                <figure class="highlight bash">
-                  <table>
-                    <tr>
-                      <td class="gutter">
-                        <pre><span class="line">1</span><br></pre>
-                      </td>
-                      <td class="code">
-                        <pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre>
-                      </td>
-                    </tr>
-                  </table>
-                </figure>
-
-                <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-                <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3>
-                <figure class="highlight bash">
-                  <table>
-                    <tr>
-                      <td class="gutter">
-                        <pre><span class="line">1</span><br></pre>
-                      </td>
-                      <td class="code">
-                        <pre><span class="line">$ hexo server</span><br></pre>
-                      </td>
-                    </tr>
-                  </table>
-                </figure>
-
-                <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-                <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink"
-                    title="Generate static files"></a>Generate static files</h3>
-                <figure class="highlight bash">
-                  <table>
-                    <tr>
-                      <td class="gutter">
-                        <pre><span class="line">1</span><br></pre>
-                      </td>
-                      <td class="code">
-                        <pre><span class="line">$ hexo generate</span><br></pre>
-                      </td>
-                    </tr>
-                  </table>
-                </figure>
-
-                <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank"
-                    rel="noopener">Generating</a></p>
-                <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink"
-                    title="Deploy to remote sites"></a>Deploy to remote sites</h3>
-                <figure class="highlight bash">
-                  <table>
-                    <tr>
-                      <td class="gutter">
-                        <pre><span class="line">1</span><br></pre>
-                      </td>
-                      <td class="code">
-                        <pre><span class="line">$ hexo deploy</span><br></pre>
-                      </td>
-                    </tr>
-                  </table>
-                </figure>
-
-                <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank"
-                    rel="noopener">Deployment</a></p>
-
-
-              </div>
-              <footer class="article-footer">
-                <a data-url="https://kanzakiluosheng.github.com/2020/06/12/hello-world/"
-                  data-id="ckbbwmf3800001cxf6eoa5sea" class="article-share-link">Share</a>
-
-
-              </footer>
-            </div>
-
-          </article>
-
-
-
-
-
-        </section>
-        <button disabled="disabled">aaaa</button>
-        <button disabled="disabled">aaaa</button>
-        <button disabled="disabled">aaaa</button>
-        <button disabled="disabled">aaaa</button>
-        <button disabled="disabled">aaaa</button>
-        <aside id="sidebar">
-
-
-
-
-
-
-
-
-
-
-          <div class="widget-wrap">
-            <h3 class="widget-title">Archives</h3>
-            <div class="widget">
-              <ul class="archive-list">
-                <li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li>
-              </ul>
-            </div>
-          </div>
-
-
-
-
-          <div class="widget-wrap">
-            <h3 class="widget-title">Recent Posts</h3>
-            <div class="widget">
-              <ul>
-
-                <li>
-                  <a href="/2020/06/12/hello-world/">Hello World</a>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-
-
-        </aside>
-
-      </div>
-      <footer id="footer">
-
-        <div class="outer">
-          <div id="footer-info" class="inner">
-            &copy; 2020 John Doe<br>
-            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-          </div>
-        </div>
-      </footer>
+    <header id="header">
+    <div id="header-wrapper" class="clearfix">
+        <a id="logo" href="/">
+            <img src="/img/logo.png"/>
+            <span id="site-desc">
+                otaku keeps alive
+            </span>
+        </a>
+        <button id="site-nav-switch">
+            <span class="icon icon-menu"></span>
+        </button>
     </div>
-    <nav id="mobile-nav">
+</header>
+    <script>setLoadingBarProgress(40);</script>
 
-      <a href="/" class="mobile-nav-link">Home</a>
-
-      <a href="/archives" class="mobile-nav-link">Archives</a>
-
-    </nav>
-
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-
-    <script src="/fancybox/jquery.fancybox.pack.js"></script>
+    <main id="main" role="main">
+        
 
 
 
 
-    <script src="/js/script.js"></script>
+
+<section class="post-list">
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world3/">
+                test blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <h4><span id="表格排序以及搜索框模糊查询"><strong>表格排序以及搜索框模糊查询</strong></span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">'./Test.css'</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; Input, Table &#125; <span class="keyword">from</span> <span class="string">"antd"</span>;</span><br><span class="line"><span class="keyword">import</span> <span class="string">'antd/dist/antd.css'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> data = [...];</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; Search &#125; = Input;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</span><br><span class="line">  <span class="keyword">constructor</span>(props) &#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">    <span class="keyword">this</span>.state=&#123;<span class="attr">data</span>:<span class="literal">null</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  onChange=<span class="function">(<span class="params">value</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.setState(&#123;</span><br><span class="line">      <span class="comment">//因为filteredValue数据类型为数组 所以设置为数组</span></span><br><span class="line">      data:[value]</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br><span class="line">  render() &#123;</span><br><span class="line">    <span class="keyword">const</span> columns = [</span><br><span class="line">      &#123;</span><br><span class="line">        title: <span class="string">'医院名称'</span>,</span><br><span class="line">        dataIndex: <span class="string">'HOSPNAME'</span>,</span><br><span class="line">        key: <span class="string">'name'</span>,</span><br><span class="line">        <span class="comment">//将输入值导入</span></span><br><span class="line">        filteredValue:<span class="keyword">this</span>.state.data||<span class="literal">null</span>,</span><br><span class="line">        <span class="comment">//record 表格循环的每一项</span></span><br><span class="line">        onFilter:<span class="function">(<span class="params">value,record</span>)=&gt;</span>&#123;</span><br><span class="line">          <span class="comment">//进行判断筛选</span></span><br><span class="line">          <span class="keyword">return</span> record[<span class="string">"HOSPNAME"</span>].indexOf(value.trim())&gt;<span class="number">-1</span>||record[<span class="string">"PY"</span>].indexOf(value.toUpperCase().trim())&gt;<span class="number">-1</span></span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        title: <span class="string">'2016'</span>,</span><br><span class="line">        dataIndex: <span class="string">'2016'</span>,</span><br><span class="line">        key: <span class="string">'year'</span>,</span><br><span class="line">         <span class="comment">//表格排序</span></span><br><span class="line">        sorter: <span class="function">(<span class="params">a, b</span>) =&gt;</span> a[<span class="number">2016</span>] - b[<span class="number">2016</span>]</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        title: <span class="string">'2017'</span>,</span><br><span class="line">        dataIndex: <span class="string">'2017'</span>,</span><br><span class="line">        key: <span class="string">'2017'</span>,</span><br><span class="line">        <span class="comment">//表格排序</span></span><br><span class="line">        sorter: <span class="function">(<span class="params">a, b</span>) =&gt;</span> a[<span class="number">2017</span>] - b[<span class="number">2017</span>]</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        title: <span class="string">'2018'</span>,</span><br><span class="line">        dataIndex: <span class="string">'2018'</span>,</span><br><span class="line">        key: <span class="string">'2018'</span>,</span><br><span class="line">        sorter: <span class="function">(<span class="params">a, b</span>) =&gt;</span> a[<span class="number">2018</span>] - b[<span class="number">2018</span>]</span><br><span class="line">      &#125;];</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">      &lt;div className=<span class="string">"table1"</span>&gt;</span><br><span class="line">        &lt;Search placeholder=<span class="string">"查询医院名称"</span> onSearch=&#123;<span class="keyword">this</span>.onChange&#125;&gt;&lt;<span class="regexp">/Search&gt;</span></span><br><span class="line"><span class="regexp">        &lt;Table</span></span><br><span class="line"><span class="regexp">          dataSource=&#123;data&#125;</span></span><br><span class="line"><span class="regexp">          columns=&#123;columns&#125;</span></span><br><span class="line"><span class="regexp">          /</span><span class="regexp">/设置每一行的key值</span></span><br><span class="line"><span class="regexp">          rowKey=&#123;(record,index) =&gt; index&#125;</span></span><br><span class="line"><span class="regexp">          onChange=&#123;onChange&#125;</span></span><br><span class="line"><span class="regexp">        /</span>&gt;</span><br><span class="line">      &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">    )</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">function onChange(pagination, filters, sorter, extra) &#123;</span></span><br><span class="line"><span class="regexp">    console.log('params', pagination, filters, sorter, extra);</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">export default Test;</span></span><br></pre></td></tr></table></figure>
+
+<h4><span id="组件之间的数据传输"><strong>组件之间的数据传输</strong></span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//父组件</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">  <span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">    <span class="keyword">this</span>.state=&#123;<span class="attr">value</span>:<span class="string">""</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line">  onChange=<span class="function">(<span class="params">e</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> value=e.target.value;</span><br><span class="line">    <span class="keyword">this</span>.setState(&#123;</span><br><span class="line">      value</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  render()&#123;</span><br><span class="line">    <span class="keyword">return</span>(</span><br><span class="line">      &lt;div className=<span class="string">"app"</span>&gt;</span><br><span class="line">        &lt;Input placeholder=<span class="string">"父组件"</span> value=&#123;<span class="keyword">this</span>.state.value&#125; onChange=&#123;<span class="keyword">this</span>.onChange&#125;/&gt;</span><br><span class="line">        &lt;App1 value=&#123;<span class="keyword">this</span>.state.value&#125; onChange=&#123;e=&gt;&#123;<span class="keyword">this</span>.onChange(e)&#125;&#125;&gt;&lt;<span class="regexp">/App1&gt;</span></span><br><span class="line"><span class="regexp">        &lt;App2 value=&#123;this.state.value&#125; onChange=&#123;e=&gt;&#123;this.onChange(e)&#125;&#125;&gt;&lt;/</span>App2&gt;</span><br><span class="line">        &lt;Select&gt;&lt;<span class="regexp">/Select&gt;</span></span><br><span class="line"><span class="regexp">      &lt;/</span>div&gt;</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//子组件</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">App1</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">  <span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">  &#125;</span><br><span class="line">  render()&#123;</span><br><span class="line">    <span class="keyword">return</span>(</span><br><span class="line">      &lt;div&gt;</span><br><span class="line">        &lt;Input placeholder=<span class="string">"子组件"</span> value=&#123;<span class="keyword">this</span>.props.value&#125;  onChange=&#123;e=&gt;&#123;<span class="keyword">this</span>.props.onChange(e)&#125;&#125;/&gt;</span><br><span class="line">      &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">    )</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/子组件</span></span><br><span class="line"><span class="regexp">class App2 extends React.Component&#123;</span></span><br><span class="line"><span class="regexp">  constructor(props)&#123;</span></span><br><span class="line"><span class="regexp">    super(props);</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">  childChange(e)&#123;</span></span><br><span class="line"><span class="regexp">    this.props.onChange(e);</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">  render()&#123;</span></span><br><span class="line"><span class="regexp">    return(</span></span><br><span class="line"><span class="regexp">      &lt;div&gt;</span></span><br><span class="line"><span class="regexp">        &lt;Input placeholder="子组件" value=&#123;this.props.value&#125;  onChange=&#123;e=&gt;&#123;this.childChange(e)&#125;&#125;/</span>&gt;</span><br><span class="line">      &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">    )</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure>
+
+
+<h4><span id="fetch数据传输"><strong>fetch数据传输</strong></span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">fetch(url,&#123;</span><br><span class="line">          method: <span class="string">'POST'</span></span><br><span class="line">          , <span class="attr">headers</span>: &#123; <span class="string">'Content-Type'</span>: <span class="string">'application/json'</span> &#125;</span><br><span class="line">          , <span class="attr">body</span>: <span class="built_in">JSON</span>.stringify(value)</span><br><span class="line">        &#125;)</span><br><span class="line">        .then(<span class="function"><span class="params">resp</span>=&gt;</span>resp.json())</span><br><span class="line">        .then(<span class="function"><span class="params">data</span>=&gt;</span>&#123;</span><br><span class="line">              <span class="built_in">console</span>.log(data)</span><br><span class="line">          &#125;)</span><br></pre></td></tr></table></figure>
+
+<h4><span id="表单验证和清空表单数据"><strong>表单验证和清空表单数据</strong></span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//表单验证</span></span><br><span class="line"> <span class="keyword">const</span> &#123; getFieldDecorator &#125; = <span class="keyword">this</span>.props.form;</span><br><span class="line">&lt;Form.Item &gt;</span><br><span class="line">            &#123;getFieldDecorator(<span class="string">'username'</span>, &#123;</span><br><span class="line">              rules: [&#123; <span class="attr">required</span>: <span class="literal">true</span>, <span class="attr">message</span>: <span class="string">'请输入用户名'</span> &#125;],</span><br><span class="line">            &#125;)(</span><br><span class="line">              &lt;Input</span><br><span class="line">                prefix=&#123;&lt;Icon type=<span class="string">"user"</span> style=&#123;&#123; <span class="attr">color</span>: <span class="string">'rgba(0,0,0,.25)'</span> &#125;&#125; /&gt;&#125;</span><br><span class="line">                placeholder=<span class="string">"用户名"</span></span><br><span class="line">              /&gt;</span><br><span class="line">            )&#125;</span><br><span class="line">&lt;<span class="regexp">/Form.Item&gt;</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/js.fn</span></span><br><span class="line"><span class="regexp">this.props.form.validateFields((err, values) =&gt; &#123;</span></span><br><span class="line"><span class="regexp">      console.log(values)&#125;)</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/表单清空</span></span><br><span class="line"><span class="regexp">this.props.form.resetFields();</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">/设置表单的值</span></span><br><span class="line"><span class="regexp">this.props.form.setFieldsValue(&#123;</span></span><br><span class="line"><span class="regexp">    key: '123',</span></span><br><span class="line"><span class="regexp">&#125;);</span></span><br></pre></td></tr></table></figure>
+
+<h4><span id="tree查询"><strong>tree查询</strong></span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">onSelect=<span class="function"><span class="params">event</span>=&gt;</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h4><span id="获取表单内值">获取表单内值</span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>.props.form.getFieldValue(属性名)</span><br></pre></td></tr></table></figure>
+
+<h4><span id="g2可视化滑块的使用">G2可视化滑块的使用</span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//显示多条数据进行排列筛选排序,单条不使用</span></span><br><span class="line"><span class="comment">// const ds3 = new DataSet();</span></span><br><span class="line">    <span class="comment">// const dv3 = ds3.createView()</span></span><br><span class="line">    <span class="comment">//   .source(data[0])</span></span><br><span class="line">    <span class="comment">//   .transform(&#123;</span></span><br><span class="line">    <span class="comment">//     type: 'fold',</span></span><br><span class="line">    <span class="comment">//     fields: ['rate'], // 展开字段集</span></span><br><span class="line">    <span class="comment">//     key: 'key',                   // key字段</span></span><br><span class="line">    <span class="comment">//     value: 'value',               // value字段</span></span><br><span class="line">    <span class="comment">//     retains: ['hospname','sort']        // 保留字段集，默认为除 fields 以外的所有字段</span></span><br><span class="line">    <span class="comment">//   &#125;);</span></span><br><span class="line">    <span class="comment">//对数据进行筛选</span></span><br><span class="line">    <span class="keyword">const</span> dv = <span class="keyword">this</span>.ds.createView();</span><br><span class="line">    dv.source(data[<span class="number">0</span>])</span><br><span class="line">      .transform(&#123;</span><br><span class="line">        type: <span class="string">'filter'</span>,</span><br><span class="line">        callback: <span class="function"><span class="params">obj</span> =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">return</span> obj.sort &gt;= <span class="keyword">this</span>.ds.state.from &amp;&amp; obj.sort &lt;= <span class="keyword">this</span>.ds.state.to;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">      </span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> view1 = <span class="keyword">this</span>.chart.view();</span><br><span class="line">   <span class="comment">//导入筛选数据</span></span><br><span class="line">    view1.source(dv);</span><br><span class="line">    <span class="keyword">this</span>.slider.changeData(dv);</span><br></pre></td></tr></table></figure>
+
+
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%202/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%203/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%204/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%205/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%206/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%207/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+    <article class="post ">
+
+    
+        <h2 class="title">
+            <a href="/2020/06/17/hello-world2%20copy%208/">
+                first blog
+            </a>
+        </h2>
+    
+    <time>
+        Jun 17, 2020
+    </time>
+    <section class="content">
+        <p style="font-weight:700"><em>美丽而又遗憾的世界</em></p>
+
+        
+
+        
+            <div class="tags">
+                <a class="tag-link" href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag">日常</a><a class="tag-link" href="/tags/%E6%B5%8B%E8%AF%95/" rel="tag">测试</a>
+            </div>
+        
+
+    </section>
+</article>
+  
+</section>
+
+
+  <nav id="page-nav" class="clearfix">
+    
+    
+    <a class="next" rel="next" href="/page/2/">
+      <span class="text">Next</span>
+      <span class="icon icon-chevron-right"></span>
+    </a>
+    
+  </nav>
+
+        <script>setLoadingBarProgress(60);</script>
+    </main>
+
+    <footer id="footer" class="clearfix">
+
+    
+
+    <div class="social-wrapper">
+        
+            
+                <a href="https://github.com/artchen" class="social github"
+                   target="_blank" rel="external">
+                    <span class="icon icon-github"></span>
+                </a>
+            
+                <a href="/atom.xml" class="social rss"
+                   target="_blank" rel="external">
+                    <span class="icon icon-rss"></span>
+                </a>
+            
+        
+    </div>
+
+    <div class="theme-by">Theme <span class="codename">Memory</span> designed by <a href="https://artifact.me/"
+                                                                                    target="_blank">Art Chen</a>.
+    </div>
+    <div>&copy; <a href="/">Hexo</a></div>
+
+</footer>
+
+
+    <script>setLoadingBarProgress(80);</script>
+    <div class="overlay"></div>
+</div>
+
+<div class="site-sidebar" id="site-sidebar">
+
+    
+
+    <div class="sidebar-switch clearfix "
+         style="display: none">
+        <a class="dark-btn active" data-toggle="toc">
+            <span class="icon icon-list"></span>
+            <span class="text">Index</span>
+        </a>
+        <a class="dark-btn" data-toggle="bio">
+            <span class="icon icon-person"></span>
+            <span class="text">Bio</span>
+        </a>
+    </div>
+
+    <div class="site-toc "
+         style="display: none">
+        
+            <div class="no-index">No Index</div>
+        
+    </div>
+
+    <div class="site-bio show"
+         style="display: block">
+
+        <div class="about-me clearfix">
+            <div class="avatar">
+                <!-- <img src="/img/avatar.png"/> -->
+                <img src="/img/avatar1.png"/>
+            </div>
+            <div class="info">
+                <a class="name dark-btn" href="/about">
+                    神崎罗生
+                </a>
+            </div>
+            <div class="info">
+                <span class="item desc">
+                    
+                </span>
+            </div>
+        </div>
+
+        <div class="menu section">
+            <ul class="clearfix">
+                
+                    <li class="left">
+                        <a href="/about"
+                           onfocus="this.blur();"
+                           class="nav-about dark-btn block">
+                            About
+                        </a>
+                    </li>
+                
+                    <li class="right">
+                        <a href="/archives"
+                           onfocus="this.blur();"
+                           class="nav-archives dark-btn block">
+                            Archives
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="shortcuts">
+        <a href="#header" class="top window-nav dark-btn" id="go-top">
+            <span class="icon icon-chevron-thin-up"></span>
+        </a>
+        <a class="close dark-btn" id="sidebar-close">
+            <span class="icon icon-close"></span>
+        </a>
+        <a href="#footer" class="top window-nav dark-btn" id="go-bottom">
+            <span class="icon icon-chevron-thin-down"></span>
+        </a>
+    </div>
+
+</div>
 
 
 
 
-  </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
+
+
+<script src="/js/jquery.fitvids.js"></script>
+
+<script>
+  var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+  var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+  var ALGOLIA_API_KEY = "";
+  var ALGOLIA_APP_ID = "";
+  var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var SEARCH_SERVICE = "";
+  var universalSearchConfig = {};
+  if (SEARCH_SERVICE === 'google') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: GOOGLE_CUSTOM_SEARCH_API_KEY,
+      engineId: GOOGLE_CUSTOM_SEARCH_ENGINE_ID,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'algolia') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      apiKey: ALGOLIA_API_KEY,
+      appId: ALGOLIA_APP_ID,
+      indexName: ALGOLIA_INDEX_NAME,
+      imagePath: "/img/"
+    };
+  } else if (SEARCH_SERVICE === 'azure') {
+    universalSearchConfig = {
+      searchService: SEARCH_SERVICE,
+      serviceName: AZURE_SERVICE_NAME,
+      indexName: AZURE_INDEX_NAME,
+      apiKey: AZURE_QUERY_KEY,
+      imagePath: "/img/"
+    };
+  }
+</script>
+
+<script src="/js/app.js"></script>
+
+
+<script src="/js/search.js"></script>
+
+
+
+
+
+<script>setLoadingBarProgress(100);</script>
+
 </body>
-
 </html>
